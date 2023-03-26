@@ -1,0 +1,44 @@
+.container	{
+	width: 95%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hex-colour {
+	text-align: center;
+}
+
+.hex-colour h1 {
+	font-size: 50px;
+	animation: colorchange 5s infinite alternate;
+}
+
+.hex-colour h2 {
+	margin-top: 20%;
+
+}
+
+@keyframes colorchange {
+	0% {
+		color: red;
+	}
+	20% {
+		color: cyan;
+	}
+	40% {
+		color: pink;
+	}
+	60% {
+		color: yellow;
+	}
+	80% {
+		color: green;
+	}
+	100% {
+		color: violet;
+	}
+
+}
+
